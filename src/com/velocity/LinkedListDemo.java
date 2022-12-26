@@ -12,6 +12,6 @@ public static void main(String[] args) {
 	l.add("rohini");
 	l.add("aasha");
 	l.add("aanu");
-	System.out.println(l);
+	l.stream().forEach(x->System.out.println(x));
 }
 }

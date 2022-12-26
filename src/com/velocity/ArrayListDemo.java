@@ -9,6 +9,7 @@ public static void main(String[] args) {
 	 al.add(20);
 	 al.add(30);
 	 al.add(40);
-	 System.out.println(al);
+	al.stream().forEach(x->System.out.println(x));
+	 
 }
 }
